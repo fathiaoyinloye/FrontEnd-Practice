@@ -1,0 +1,149 @@
+* {
+  padding: 5px;
+}
+
+body {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+header {
+  display: flex;
+}
+.logo {
+  display: flex;
+}
+#advantages {
+  color: #fe9168;
+  margin-bottom: 0px;
+}
+.services {
+}
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  p {
+    color: #9aa5b6;
+    font-size: 18px;
+    width: 410px;
+    padding-top: 50px;
+  }
+  h1 {
+    margin-top: 0px;
+    font-size: 50px;
+    color: #282b6d;
+    font-weight: 500px;
+    width: 500px;
+  }
+}
+
+.learnmore {
+  display: flex;
+  justify-content: space-between;
+  img {
+    padding: 0;
+    border: 0;
+    display: block;
+  }
+
+  h2 {
+    color: #282b6d;
+    margin-top: 0px;
+  }
+  a {
+    color: #5735d2;
+    text-decoration: none;
+  }
+  p {
+    color: #9aa5b6;
+  }
+}
+.exchange {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  h3 {
+    color: #9aa5b6;
+  }
+}
+.dollar {
+  display: flex;
+  align-items: center;
+  background-color: #f7f8fa;
+  img {
+    padding: 0;
+  }
+}
+.exchangeMoney {
+  width: 400px;
+
+  button {
+    color: #ffffff;
+    background-color: #fe9168;
+    border: 0;
+    padding: 20px 120px;
+    border-radius: 20px;
+  }
+}
+.bestService {
+  width: 500px;
+  height: auto;
+
+  h1 {
+    color: #282b6d;
+    font-size: 50px;
+    font-weight: 20px;
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+  h2 {
+    color: #fe9168;
+    font-size: 20px;
+  }
+
+  button {
+    color: #ffffff;
+    background-color: #5735d2;
+    border: 0;
+    padding: 20px 50px;
+    border-radius: 20px;
+  }
+}
+
+.hiddenFess {
+  background: #f8faff;
+
+  width: 300px;
+}
+/* secondPart */
+.promotional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F6FF;
+    h2{
+        color: #FE9168;
+
+    }
+    h1{
+        color: #282B6D;
+        padding: 0;
+        margin: 0;
+ ;
+    }
+    p{
+        color: #9AA5B6;
+        width: 500px;
+
+    }
+    form{
+        button{
+            background: #5735D2;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 5px;
+
+        }
+    }
+
+}
+

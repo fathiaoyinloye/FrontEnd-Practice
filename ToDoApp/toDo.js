@@ -45,7 +45,7 @@ if (homepageElement) {
 
   function handleError(error) {
     console.log("Failed:", error);
-    alert("Sing up Failed " + error.message);
+    alert("Sign up Failed " + error.message);
   }
 
   async function signUpUser(nameValue, usernameValue, passwordValue) {
@@ -172,7 +172,7 @@ if (mainElement) {
       addNewTask.reset();
       closeNewTask(addNewTaskContainer);
     } catch (error) {
-      console.log("Failed:", error);
+      console.log("Failed:", error.message);
       alert("Add Task " + error.message);
     }
   }
